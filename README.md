@@ -78,6 +78,8 @@ Assumptions:
 - **Desktop web page** : - Clicking on my account after adding item to cart behaves differently on different OS. Using chrome on a mac, clicking on my account takes you to the login page . But while using chrome on windows , clicking on my account opens two options and then you need to click on sign in to reach the login page.
 - **Mobile logout** :- Doing a logout from the mobile emulator takes us to a desktop web page . Because of this, I am using a new browser window for each test data. 
 - **Web logout** :- Sometimes doing a logout on the desktop website does not actually log out the user. See snapshot
+- ![alt tag](http://i.imgur.com/Vo9IO2b.png)
+ 
  
 
 ### Reasoning behind the technical choices

@@ -10,10 +10,10 @@ Before running the code you need to set up the following tools and frameworks on
 
 - Selenium: (http://www.seleniumhq.org/download/ ) . All the Selenium jar files have been included in the project under the “jars” folder(no need to download again). They are included as part of the project classpath.
 
-- TestNG :- Download the TestNG eclipse plugin from http://testng.org/doc/download.html  
+- TestNG :- Install the TestNG eclipse plugin from http://testng.org/doc/download.html  
 
 - Drivers:- You need to install different Drivers for different web browsers. For this project you need the Chrome driver to be installed, which can be downloaded from 
-https://sites.google.com/a/chromium.org/chromedriver/downloads 
+https://sites.google.com/a/chromium.org/chromedriver/downloads .
 Make sure the Chrome executable is at the standard location as mentioned in the below table: 
 
     OS                       | Expected Location of Chrome 
@@ -48,6 +48,7 @@ Assumptions:
        so I did not add a test for validating or adding the address. 
     3. The item we add will have at least 1 item to buy online that the user can add to the  cart
     4. The user does not have any items in the cart.
+    5. The project has been tested only on Windows Chrome and Mac Chrome.
 
 
 ### How to Import and setup the project in eclipse?

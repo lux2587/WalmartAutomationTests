@@ -110,8 +110,7 @@ I have automated two scenarios to test the mobile.walmart.com<http://mobile.walm
     4. Test if item quantity is added more than available items (if it is possible on the UI)
     5. If there is any upper limit on the amount to be in the cart, test for amounts 
        almost equal to that higher limit and amount over limit (for example the upper limit to buy online is $50,000 test for 49,999 and 50,000+)
-    6. Test to login by different ways by clicking “Checkout” by creating “New Account” and 
-       if anymore ways to login.
+    6. Test login by different paths e.g. by clicking on “Checkout” or by creating “New Account” etc.
     7. Test on various browsers
     8. Test on different emulator devices
     9. Test on actual device
@@ -131,12 +130,11 @@ I have automated two scenarios to test the mobile.walmart.com<http://mobile.walm
   (Practically it is difficult to test on all devices, shapes and sizes, different OS version, it is best to pick the most widely used devices and OS versions)
 - Mobile simulators should also be used to expedite the testing process.
 - Reuse more code between web and mobile test classes
-- Have a CleanFile() method to get the company file to be in ideal state (e.g with no items in cart) before starting the test case.
+- Have a CleanFile() method to reset the account to an ideal state (e.g with no items in cart) before starting the test case.
 - Additional test cases mentioned above can be automated
 - Take snapshots of the screen during the test cycle
 - Highlight the item which is being clicked, or edited etc.
 - Try to improve the testing time of the test cases by investigating replacement of wait for web page to load.
-- Signout() on web page is handled by going to the url https://www.walmart.com/account/logout, we can change that My AccountSign out, to signout of the account
 - Investigate and work to find a more optimal solution to take the data from one single file instead of “data Provider”
 - Make tests more generic, like if the data changes we have to make sure all the special cases are handled, example “Toys or See price details in cart” cases are handled in current tests
 - Create separate classes for storing error messages and XPaths in one place.

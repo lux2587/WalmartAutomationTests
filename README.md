@@ -50,7 +50,7 @@ Assumptions:
 -	Change the chrome driver path in both _**MobileEmulatorTests.java**_ and _**WebPageTests.java**_. Make sure to update the WebDriver statement with the correct Chrome executable path. The “path/to/driver” is where the file “chromedriver.exe” or "chromedriver" has been downloaded. 
   	-  Open both _**MobileEmulatorTests.java**_ and _**WebPageTests.java**_  and modify the following statement
 		- Windows :-   _**System.setProperty("webdriver.chrome.driver","/path/to/driver/chromedriver.exe");**_
-		- Mac/Linix :- _**System.setProperty("webdriver.chrome.driver", "/path/to/driver/chromedriver");**_
+		- Mac/Linux :- _**System.setProperty("webdriver.chrome.driver", "/path/to/driver/chromedriver");**_
 
 
 ### Run the project:-

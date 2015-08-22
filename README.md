@@ -14,16 +14,7 @@ Before running the code you need to set up the following tools and frameworks on
 
 - Drivers:- You need to install different Drivers for different web browsers. For this project you need the Chrome driver to be installed, which can be downloaded from 
 https://sites.google.com/a/chromium.org/chromedriver/downloads .
-Make sure the Chrome executable is at the standard location as mentioned in the below table: 
-
-    OS                       | Expected Location of ChromeDriver 
-    -------------        | -------------
-    Linux                |	/usr/bin/google-chrome1 
-    Mac                  | /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome 
-    Windows XP           | 	%HOMEPATH%\Local Settings\Application Data\Google\Chrome\Application\chrome.exe 
-    Windows Vista and up      |	C:\Users\%USERNAME%\AppData\Local\Google\Chrome\Application\chrome.exe 
-
-        If the chrome executable is in a non-standard location make sure to add the correct location in the code which is explained in the next section
+Make sure to add the correct location of the Chrome driver in the code which is explained in one of the next sections.
 
 ### Problem Statement/Requirement: 
 The requirement for this project was to automate an end-to-end scenario for UI testing the e-commerce website mobile.walmart.com<http://mobile.walmart.com>. 

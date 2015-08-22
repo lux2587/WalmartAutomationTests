@@ -17,7 +17,7 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads .
 Make sure to add the correct location of the Chrome driver in the code which is explained in one of the next sections.
 
 ### Problem Statement/Requirement: 
-The requirement for this project was to automate an end-to-end scenario for UI testing the e-commerce website mobile.walmart.com<http://mobile.walmart.com>. 
+The requirement for this project was to automate an end-to-end scenario for UI testing the e-commerce website http://mobile.walmart.com. 
 
 Scenarios to be tested:
     
@@ -140,9 +140,9 @@ I have automated two scenarios to test the mobile.walmart.com<http://mobile.walm
 - Create separate classes for storing error messages and XPaths in one place.
 - Add documentation to all methods with examples and usages.
 - Modularize the classes further so that each sub scenario can be tested independently(if  possible)
-- Make a few things configurable by storing/retreiving values in an xml.json file. For example, wait timeout, test data. Also handle password securely. 
+- Make a few things configurable by storing/retreiving values in an xml.json file. For example, wait timeout, test data.
 - Modify and optimize the XPaths so that we don't have to change a lot of code if the web pages change.
 
 ### Why is it missing
-    Time constraint 
+    Time constraint and lack of resources like OS etc.
 
